@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "854967944912",
+    "firebase_url": "https://purefirebaseunityproject.firebaseio.com",
+    "project_id": "purefirebaseunityproject",
+    "storage_bucket": "purefirebaseunityproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:854967944912:android:d6b511c8d2d778e7",
+        "android_client_info": {
+          "package_name": "com.SweetColors.PureFirebaseUnityProject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "854967944912-d72g40h3btpbo5osq52go4ha8s5j8i5r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEvJm6YAiwR8vCh010mEHviTEWzhfaHj4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "854967944912-d72g40h3btpbo5osq52go4ha8s5j8i5r.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "854967944912-3dnfkdgf6iu2lm2smulqqp5a0olog2rj.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.SweetColors.PureFirebaseUnityProject"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
