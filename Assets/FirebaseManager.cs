@@ -1,4 +1,10 @@
-﻿using System.Collections;
+﻿// Pure Firebase Unity Project
+// Author : Soundpiercer
+// soundpiercer@gmail.com
+//
+// Firebase Unity SDK v6.3.0
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -68,4 +74,9 @@ public class FirebaseManager : MonoBehaviour
         UnityEngine.Debug.Log("Received a new message from: " + e.Message.From);
     }
     #endregion
+
+    public void QuitApp()
+    {
+        Application.Quit();
+    }
 }
