@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "854967944912-ro1u7q64cd1dnk0gd0suebps15jpcsp7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.SweetColors.PureFirebaseUnityProject",
+            "certificate_hash": "fd81b054bf77d1b43ca17fb539df486072bb04c0"
+          }
+        },
+        {
           "client_id": "854967944912-d72g40h3btpbo5osq52go4ha8s5j8i5r.apps.googleusercontent.com",
           "client_type": 3
         }
