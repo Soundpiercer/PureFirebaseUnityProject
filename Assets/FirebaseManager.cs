@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SocialPlatforms;
+using UnityEngine.SceneManagement;
 
 using GooglePlayGames;
 using GooglePlayGames.BasicApi;
@@ -21,6 +22,12 @@ public class FirebaseManager : MonoBehaviour
     public Text firebaseAuthStatusText;
 
     private const string FIREBASE_AUTH_STATUS_NONE = "status : none";
+
+    private enum ProjectScene
+    {
+        SampleScene,
+        FirebaseTest,
+    }
 
     // Comment from Soundpiercer:
     // Firebase Init Operation is Async Task, so we're going to handle as Unity Coroutine.
@@ -190,6 +197,11 @@ public class FirebaseManager : MonoBehaviour
         UnityEngine.Debug.Log("Received a new message from: " + e.Message.From);
     }
     #endregion
+
+    public void OpenFirebaseTestScene()
+    {
+        SceneManager.LoadScene((int)ProjectScene.FirebaseTest);
+    }
 
     public void QuitApp()
     {

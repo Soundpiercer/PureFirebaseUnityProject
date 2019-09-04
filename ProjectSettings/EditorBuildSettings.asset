@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 90fd76a4b1dc5ae4aa165e269467b46c
+  - enabled: 1
+    path: Assets/FacebookSDK/Examples/MainMenu.unity
+    guid: 7c38a8c9adc9d5c4b869612e4033ead8
   m_configObjects: {}
