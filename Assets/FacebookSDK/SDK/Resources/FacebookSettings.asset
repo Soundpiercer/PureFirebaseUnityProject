@@ -16,9 +16,9 @@ MonoBehaviour:
   clientTokens:
   - 
   appIds:
-  - 0
+  - 2364336100553572
   appLabels:
-  - App Name
+  - PureFirebaseUnityProject
   cookie: 1
   logging: 1
   status: 1
